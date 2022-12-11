@@ -63,16 +63,16 @@ class ModelTraining(threading.Thread):
 
 			Flatten(),
 
-			Dense(700, activation = "relu"),
+			Dense(900, activation = "relu"),
 			BatchNormalization(),
-			Dropout(0.2),
+			Dropout(0.1),
 
 			Dense(500, activation = "relu"),
 			BatchNormalization(),
-			Dropout(0.2),
+			Dropout(0.1),
 
 			Dense(400, activation = "relu"),
-			Dropout(0.2),
+			Dropout(0.1),
 
 			Dense(n_classes, activation = "softmax")
 		])
