@@ -1,0 +1,22 @@
+a {
+  color: #00b7ff;
+}
+
+h1 {
+  border-left: 5px solid #333;
+  padding-left: 5px;
+}
+
+button {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.buttons-container {
+  margin-top: 1em;
+}
+
+#defaultCanvas0 {
+  border: 1px solid black;
+}
